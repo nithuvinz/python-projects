@@ -1,5 +1,5 @@
-import pyttsx3
-import PyPDF2
+import pyttsx3 #pip install pyttsx3 for installing text to speech files
+import PyPDF2  #pip install PyPDF2 for installing PDF related files
 book = open('got.pdf','rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
